@@ -148,3 +148,39 @@
         margin-block-start: var(--space-8)
     }
 }
+
+@media (min-width: 1200px) {
+
+  .login-page{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .content{
+    background-size: cover;
+  }
+  .logo{
+    margin-inline-end: auto;
+  }
+  .logo img {
+    height: 28px;
+    width: auto;
+  }
+
+  .bottom-text {
+    margin-inline-start: auto;
+    font-size: var(--fs-body-large);
+    line-height: var(--lh-body-large);
+    letter-spacing: var(--ls-p-050);
+    font-weight: var(--fw-regular);
+  }
+}
+
+@media (min-width: 1400px) {
+  .title {
+    font-size: var(--fs-display-large);
+    line-height: var(--lh-display-large);
+  }
+  .btn{
+    margin-block-start: var(--space-10);
+  }
+}
